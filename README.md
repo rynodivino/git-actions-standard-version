@@ -8,7 +8,7 @@ If you're here, it's assumed you're familiar with [standard version](https://git
 
 ## Getting Started
  * Simply add the following directory and file as seen in this repo ```.github/workflows/release.yml```.
- * Run the first release locally - see [first release](https://github.com/conventional-changelog/standard-version#first-release), and push it upstream.
+ * Run the first release locally - see [first release](https://github.com/conventional-changelog/standard-version#first-release), and push the tag ```git push --follow-tags origin main```
  * After the manual first release, any new prs merged into main (or whatever branch you chose) should be set to pop (automated)
 
 
