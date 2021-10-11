@@ -1,0 +1,21 @@
+name: Node.js CI
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x]
+    steps:
+    - name: Git checkout
+      uses: actions/checkout@v2
+      with:
+        ref: main
+        fetch-depth: "0"
+    - run: |
+        git config user.name "GitHub Actions Bot"
+        git config user.email "<>"
+    - run: npx standard-version
+    - run: git push --follow-tags origin main

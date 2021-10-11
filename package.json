@@ -1,0 +1,26 @@
+{
+  "name": "git-actions-standard-version",
+  "version": "1.0.0",
+  "description": "Demo using standard-version with git actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rynodivino/git-actions-standard-version.git"
+  },
+  "keywords": [
+    "standard-version",
+    "conventional-commits",
+    "git",
+    "git-actions",
+    "ci"
+  ],
+  "author": "Ryan Nichols",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/rynodivino/git-actions-standard-version/issues"
+  },
+  "homepage": "https://github.com/rynodivino/git-actions-standard-version#readme"
+}
