@@ -1,6 +1,6 @@
 {
   "name": "git-actions-standard-version",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Demo using standard-version with git actions",
   "main": "index.js",
   "scripts": {
