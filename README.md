@@ -1,3 +1,5 @@
+![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/rynodivino/git-actions-standard-version)
+
 # github-actions-standard-version
 
 ## Description
